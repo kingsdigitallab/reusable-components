@@ -13,3 +13,4 @@ For more information see `How-to guides`_.
     :maxdepth: 1
 
     cookies
+    wait-for-elasticsearch-docker

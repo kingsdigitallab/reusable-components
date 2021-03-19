@@ -18,3 +18,4 @@ Added
 ~~~~~
 * Cookies component.
 * Initial documentation structure.
+* How-to: wait for Elasticsearch to be ready in Docker.
