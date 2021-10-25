@@ -12,7 +12,7 @@ Option 1 - OpenStreetMap
 
 OpenStreetMap provides a tile service with a usage policy detailed here: https://operations.osmfoundation.org/policies/tiles/
 
-NB. This option should not be used if we anticipate heavy traffic, i.e through an app or very bust website.
+NB. This option should not be used if we anticipate heavy traffic, i.e through an app or very busy website.
 
 
 .. code-block:: bash
