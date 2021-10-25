@@ -9,3 +9,7 @@ For more information see `Reference guides`_.
 
 .. toctree::
     :maxdepth: 1
+
+
+    cookies
+    webmap-options
