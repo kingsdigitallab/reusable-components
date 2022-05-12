@@ -97,6 +97,10 @@ As an illustration, here's how you would edit the About page (/about):
    document
 6. use the simple text editor to edit the front
 
+.. image:: ../images/github-browse-file.svg
+
+.. image:: ../images/github-edit-file.svg
+
 .. _github starter page: github.md
 .. _markdown format: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
