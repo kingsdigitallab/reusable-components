@@ -1,7 +1,7 @@
-Documentation for developers about the static site
-==================================================
+Eleventy SSG for devs
+=====================
 
-The web site is developed using a Static Site Generator called
+Documentation about how KDL sites are developed using a Static Site Generator called
 `11ty <https://www.11ty.dev/>`__.
 
 Installing 11ty
