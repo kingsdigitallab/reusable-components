@@ -1,6 +1,12 @@
 Introduction to editing the web site content
 ============================================
 
+TL;DR
+-----
+
+Static web pages are automatically generated every 5 minutes 
+from Markdown files which you can edit directly on github.com. 
+
 Prerequisites
 -------------
 
