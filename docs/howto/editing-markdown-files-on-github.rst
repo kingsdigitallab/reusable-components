@@ -15,7 +15,9 @@ Markdown
 ~~~~~~~~
 
 Files ending with .md are in `markdown format`_, a simple text-based
-notation to format the body of your document for the web.
+notation to format the body of your document for the web. Most of the
+content of the site is encoded using markdown files as they are easy
+for non-developers to edit. Editors can ignore other types of files.
 
 The **Front-matter** is an optional section at the beginning of the file
 used to define metadata associated with the document, like the title 
@@ -38,7 +40,8 @@ Here's an example of a blog post in markdown:
 
    # Introduction
 
-   This is an example of a post written by [KDL](https://kdl.kcl.ac.uk) in markdown...
+   This is an example of a post written
+   by [KDL](https://kdl.kcl.ac.uk) in markdown...
 
 HTML
 ~~~~
@@ -51,8 +54,8 @@ Liquid
 
 In both .html and .md files you may see some constructs surrounded by
 curly braces. They follow the Liquid notation, which is templating
-language to generate HTML or markdown from metadata. It is best to let
-developers maintain them.
+language to generate HTML or markdown from metadata. You can ignore it
+and leave its maintenance to the development team.
 
 .. code-block:: liquid
 
@@ -72,6 +75,12 @@ web page at the URL /about/team . /about/index.md would map to the
 
 You can find the blog posts and news articles under the /blogPostings
 folder. The team members are located under the /people folder.
+
+In order to `avoid redundant content`_, the metadata found in some markdown
+files like /people is reused across the site. For instance the author
+of a blog post only refers to the alias of a person. The web page for
+that post will automatically retrieve the full name of that person from
+their markdown file under /people.
 
 Editorial workflow
 ------------------
@@ -109,4 +118,4 @@ As an illustration, here's how you would edit the About page (/about):
 
 .. _github starter page: github.rst
 .. _markdown format: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-
+.. _avoid redundant content: http://principles-wiki.net/principles:don_t_repeat_yourself
