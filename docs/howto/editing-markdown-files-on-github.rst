@@ -24,7 +24,8 @@ with a line consisting of three dashes (---).
 
 Here's an example of a blog post in markdown:
 
-::
+.. code-block:: markdown
+
    ---
    title: Our first blog post  
    publicationDate: 2022-05-13
@@ -53,7 +54,8 @@ curly braces. They follow the Liquid notation, which is templating
 language to generate HTML or markdown from metadata. It is best to let
 developers maintain them.
 
-::
+.. code-block:: liquid
+
     {% include 'team.md', team: 'research' %}
 
 
