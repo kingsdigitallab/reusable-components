@@ -14,20 +14,20 @@ File formats
 Markdown
 ~~~~~~~~
 
-Files ending in .md are in `markdown format`_, a simple text-based
+Files ending with .md are in `markdown format`_, a simple text-based
 notation to format the body of your document for the web.
 
-The Front-matter is an optional section in the beginning of the file
-used to define metadata associated with the document. For instance the
-title of the document or its authors. A line with --- separate the
-front-matter from the body of the document.
+The **Front-matter** is an optional section at the beginning of the file
+used to define metadata associated with the document, like the title 
+of the document or its authors. The Front matter starts and ends
+with a line consisting of three dashes (---).
 
 Here's an example of a blog post in markdown:
 
-.. code:: markdown
-
+::
+   ---
    title: Our first blog post  
-   publicationDate: 
+   publicationDate: 2022-05-13
    authors: 
     - jsmith
     - jdoe
@@ -42,7 +42,7 @@ Here's an example of a blog post in markdown:
 HTML
 ~~~~
 
-Files end in with .html use the HTML5 standard instead of the simpler
+Files ending with .html use the HTML5 standard instead of the simpler
 markdown language.
 
 Liquid
@@ -52,6 +52,10 @@ In both .html and .md files you may see some constructs surrounded by
 curly braces. They follow the Liquid notation, which is templating
 language to generate HTML or markdown from metadata. It is best to let
 developers maintain them.
+
+::
+    {% include 'team.md', team: 'research' %}
+
 
 Organisation of the editable content
 ------------------------------------
