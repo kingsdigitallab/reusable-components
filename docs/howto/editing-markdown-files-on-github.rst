@@ -136,7 +136,9 @@ A good slug:
 2. is made of letters, numbers and hyphens, please avoid any other character
 3. is short yet meaningful (eliding determinants is a common practice to keep thigns short)
 
-For instance, an article with he following title "Why we are ready to strike: a panel of workers respond" could have this slug "ready-to-strike-public-sector-workers". 
+For instance, an article with he following title "Why we are ready to strike: a panel of workers respond" could have this slug "ready-to-strike-public-sector-workers".
+
+.. image:: ../images/page-slug.png
 
 Blog posts and News Items
 -------------------------
