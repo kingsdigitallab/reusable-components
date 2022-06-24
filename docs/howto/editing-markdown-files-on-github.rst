@@ -135,6 +135,7 @@ A good slug:
 1. matches the title of the page (i.e. the title field in the front-matter)
 2. is made of letters, numbers and hyphens, please avoid any other character
 3. is short yet meaningful (eliding determinants is a common practice to keep thigns short)
+4. **never changes after publication** (as this would break links and bookmarks and confuse Google Search)
 
 For instance, an article with he following title "Why we are ready to strike: a panel of workers respond" could have this slug "ready-to-strike-public-sector-workers".
 
