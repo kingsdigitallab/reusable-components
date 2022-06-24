@@ -36,7 +36,6 @@ Here's an example of a blog post in markdown:
 
    ---
    title: Our first blog post  
-   publicationDate: 2022-05-13
    authors: 
     - jsmith
     - jdoe
@@ -125,3 +124,25 @@ As an illustration, here's how you would edit the About page (/about):
 .. _github starter page: github.rst
 .. _markdown format: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 .. _avoid redundant content: http://principles-wiki.net/principles:don_t_repeat_yourself
+
+What's a slug?
+-------------
+
+The `slug <https://en.wikipedia.org/wiki/Slug_%28publishing%29>`_ of a web page is the name it take at the end of its URL. This also correspond to the name of the file.
+
+A good slug:
+
+1. matches the title of the page (i.e. the title field in the front-matter)
+2. is made of letters, numbers and hyphens, please avoid any other character
+3. is short yet meaningful (eliding determinants is a common practice to keep thigns short)
+
+For instance, an article with he following title "Why we are ready to strike: a panel of workers respond" could have this slug "ready-to-strike-public-sector-workers". 
+
+Blog posts and News Items
+-------------------------
+
+The /posts folder contains one subdirectory for each main category of posts. Typically 'blog' and 'news'. 
+The publication date of a post is determined by the date at the beginning of the file name, e.g. 2022-06-20-my-first-post.md
+
+The part following the date is the slug.
+
