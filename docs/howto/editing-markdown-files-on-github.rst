@@ -161,12 +161,12 @@ Here is the full notation to include an image in your web page:
 1. ALT_TEXT: the alternative text, a short description of the image accessible to visually impaired people only
 2. URL: the relative address of the image file you have uploaded to the repository (typically under the assets/img folder)
 3. CAPTION: a short description of the image in the context of your article, this will be displayed below the image to all users
-4. ALIGNMENT: a class that spcify whether the image is aligned left {.media-left}, right {.media-right} or centre {.media-center}
+4. ALIGNMENT: a class that spcify whether the image is aligned left {.media-left}, right {.media-right}, centre {.media-center} or full width {.media-full}
 
 Here's an example:
 
 .. code-block:: markdown
 
-    ![A 15th-century stone manor house]({{ "/assets/img/home/Hipswell-Hall-st.jpg#left" | url }} "Hipswell Hall, where Alice lived with her mother <br> &copy; Suzanne Trill"){.media-left}
+    ![A 15th-century stone manor house]({{ "/assets/img/home/Hipswell-Hall-st.jpg" | url }} "Hipswell Hall, where Alice lived with her mother <br> &copy; Suzanne Trill"){.media-left}
 
 As illustrated above, you can use <br> in the caption to break lines.
