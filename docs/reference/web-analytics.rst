@@ -28,3 +28,11 @@ Instructions tested on Ubuntu 20.04 with our default nginx setup
    7. AFTER ingore-status 502, ADD ignore-status 301 AND ignore-status 302
     
   
+TODO:
+
+* Persist of the Goaccess DB
+* Filter only live site
+* Analysis
+
+
+
