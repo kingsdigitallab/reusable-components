@@ -42,12 +42,12 @@ Look at recent stats
 2. elevate to root with ksu
 3. goaccess /project/webroot/liv/logs/nginx/access.log
 
+For all stats:
+
+4. goaccess --restore --db-path=/project/webroot/liv/logs/nginx/goaccess
+
   
 TODO:
 
-* Persist of the Goaccess DB
 * Analysis: how can we do time slice, look at bounce rates, entry/exit points, navifation flow?
-
-
-
-
+* Make sure size of GoAccess DB remains small enough over longer period of time
