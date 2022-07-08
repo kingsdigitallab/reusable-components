@@ -51,3 +51,4 @@ TODO:
 
 * Analysis: how can we do time slice, look at bounce rates, entry/exit points, navifation flow?
 * Make sure size of GoAccess DB remains small enough over longer period of time
+* IP is 127.0.0.1 in nginx logs so we have no sense of user sessions (user agent is not enough)
