@@ -30,9 +30,11 @@ Instructions tested on Ubuntu 20.04 with our default nginx setup
 Look at recent stats
 --------------------
 
+
 1. ssh into the server
-1. elevate to root with ksu
-2. goaccess /project/webroot/liv/logs/nginx/access.log
+2. elevate to root with ksu
+3. goaccess /project/webroot/liv/logs/nginx/access.log
+
   
 TODO:
 
