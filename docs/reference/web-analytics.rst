@@ -26,13 +26,19 @@ Instructions tested on Ubuntu 20.04 with our default nginx setup
    5. #browser-file -> browsers-file /etc/goaccess/browsers.list
    6. ignore-crawlers false -> ignore-crawlers true
    7. AFTER ingore-status 502, ADD ignore-status 301 AND ignore-status 302
-    
+
+Look at recent stats
+--------------------
+
+1. ssh into the server
+1. elevate to root with ksu
+2. goaccess /project/webroot/liv/logs/nginx/access.log
   
 TODO:
 
 * Persist of the Goaccess DB
-* Filter only live site
-* Analysis
+* Analysis: how can we do time slice, look at bounce rates, entry/exit points, navifation flow?
+
 
 
 
