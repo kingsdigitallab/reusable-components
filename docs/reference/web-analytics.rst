@@ -12,9 +12,9 @@ Instructions tested on Ubuntu 20.04 with our default nginx setup
 
 1. Download & install latest stable version using the Official Ubuntu Repository (because default distribution package is too old)
 
-   1.1 elevate to root using ksu
-   1.2 run each provided line one by one (remove 'sudo' keyword before running them)
-   1.3 before running apt-get update, do chmod ugo+r /usr/share/keyrings/goaccess.gpg
+   1. elevate to root using ksu
+   2. run each provided line one by one (remove 'sudo' keyword before running them)
+   3. before running apt-get update, do chmod ugo+r /usr/share/keyrings/goaccess.gpg
 
 2. Check goaccess is install by running goaccess --version (should be 1.6+)
 3. vi /etc/goaccess/goaccess.conf
