@@ -3,7 +3,7 @@ Web analytics
 
 We are currently trialing GoAccess as a prelacement for Google Analytics.
 
-GoAccess words entirelly locally.
+GoAccess works entirely locally. Currently used by Radical Translation (and soon Alice Thornton).
 
 Installation instructions
 -------------------------
