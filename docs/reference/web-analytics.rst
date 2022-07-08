@@ -19,12 +19,12 @@ Instructions tested on Ubuntu 20.04 with our default nginx setup
 2. Check goaccess is install by running goaccess --version (should be 1.6+)
 3. vi /etc/goaccess/goaccess.conf
 
-   1 uncomment line 13: time-format %H:%M:%S
-   2 uncomment line 36: date-format %d/%b/%Y
-   3 Under 'Log Format Options' section, add: log-format  %h %^[%d:%t %^] "%m %U" %s %b "%R" "%u"
-   4 http-protocol yes -> http-protocol false
-   5 #browser-file -> browsers-file /etc/goaccess/browsers.list
-   6 ignore-crawlers false -> ignore-crawlers true
-   7 AFTER ingore-status 502, ADD ignore-status 301 AND ignore-status 302
+   1. uncomment line 13: time-format %H:%M:%S
+   2. uncomment line 36: date-format %d/%b/%Y
+   3. Under 'Log Format Options' section, add: log-format  %h %^[%d:%t %^] "%m %U" %s %b "%R" "%u"
+   4. http-protocol yes -> http-protocol false
+   5. #browser-file -> browsers-file /etc/goaccess/browsers.list
+   6. ignore-crawlers false -> ignore-crawlers true
+   7. AFTER ingore-status 502, ADD ignore-status 301 AND ignore-status 302
     
   
