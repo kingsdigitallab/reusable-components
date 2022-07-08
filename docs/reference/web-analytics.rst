@@ -26,6 +26,13 @@ Instructions tested on Ubuntu 20.04 with our default nginx setup
    5. #browser-file -> browsers-file /etc/goaccess/browsers.list
    6. ignore-crawlers false -> ignore-crawlers true
    7. AFTER ingore-status 502, ADD ignore-status 301 AND ignore-status 302
+   
+4. mkdir /project/webroot/liv/logs/nginx/goaccess
+5. goaccess /project/webroot/liv/logs/nginx/access.log -a --persist --db-path=/project/webroot/liv/logs/nginx/goaccess -o /dev/null
+6. create cron job to persist web logs to the goaccess db
+
+   1. crontab -e
+   2. ADD: 0 * * * * goaccess /project/webroot/liv/logs/nginx/access.log -a --persist --restore --db-path=/project/webroot/liv/logs/nginx/goaccess -o /dev/null
 
 Look at recent stats
 --------------------
