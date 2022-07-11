@@ -25,30 +25,27 @@ Instructions tested on Ubuntu 20.04 with our default nginx setup
    4. http-protocol yes -> http-protocol false
    5. #browser-file -> browsers-file /etc/goaccess/browsers.list
    6. ignore-crawlers false -> ignore-crawlers true
-   7. AFTER ingore-status 502, ADD ignore-status 301 AND ignore-status 302
+   7. AFTER ignore-status 502, ADD ignore-status 301 AND ignore-status 302
    
-4. mkdir /project/webroot/liv/logs/nginx/goaccess
-5. goaccess /project/webroot/liv/logs/nginx/access.log -a --persist --db-path=/project/webroot/liv/logs/nginx/goaccess -o /dev/null
+4. mkdir /project/webroot/liv/logs/trafficserver/goaccess
+5. goaccess /project/webroot/liv/logs/trafficserver/access.log -a --persist --restore --db-path=/project/webroot/liv/logs/trafficserver/goaccess -o /dev/null
 6. create cron job to persist web logs to the goaccess db
 
    1. crontab -e
-   2. ADD: 0 * * * * goaccess /project/webroot/liv/logs/nginx/access.log -a --persist --restore --db-path=/project/webroot/liv/logs/nginx/goaccess -o /dev/null
+   2. ADD: 0 * * * * goaccess /project/webroot/liv/logs/trafficserver/access.log -a --persist --restore --db-path=/project/webroot/liv/logs/trafficserver/goaccess -o /project/webroot/stg/github/frontend/_site/webstats.html && chmod ugo+rw /project/webroot/stg/github/frontend/_site/webstats.html
 
-Look at recent stats
---------------------
+View web stats
+--------------
 
+From command line:
 
 1. ssh into the server
 2. elevate to root with ksu
-3. goaccess /project/webroot/liv/logs/nginx/access.log
+3. goaccess --restore --db-path=/project/webroot/liv/logs/trafficserver/goaccess
 
-For all stats:
+Alternatively From the staging site: go to /webstats.html
 
-4. goaccess --restore --db-path=/project/webroot/liv/logs/nginx/goaccess
-
-  
 TODO:
 
 * Analysis: how can we do time slice, look at bounce rates, entry/exit points, navifation flow?
 * Make sure size of GoAccess DB remains small enough over longer period of time
-* IP is 127.0.0.1 in nginx logs so we have no sense of user sessions (user agent is not enough)
