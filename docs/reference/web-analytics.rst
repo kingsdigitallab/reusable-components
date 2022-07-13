@@ -21,6 +21,7 @@ Advantages:
 * no running services
 * no dependencies to third-party cloud service
 * more privacy-friendly than Google Analytics
+* directly visible by partners & analysts through our platform (we don't need to dev/UI/UX/sysadmin to browse traffic stats)
 
 Limitations
 
