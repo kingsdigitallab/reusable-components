@@ -5,6 +5,28 @@ We are currently trialing `GoAccess <https://goaccess.io/>`_ as a prelacement fo
 
 GoAccess works entirely locally. Currently used by Radical Translation (and soon Alice Thornton).
 
+Summary
+-------
+
+The following setup:
+
+* installs GoAccess on the web server
+* every hour a root cron job:
+    * extracts data from the latest live TrafficServer access log
+    * adds them to the GoAccess database (under /project/webroot/liv/logs/trafficserver/goaccess)
+    * saves a static html report in the staging site (X-stg.kdl.kcl.ac.uk/webstats.html) available to analysts & partners
+
+Advantages:
+
+* no running services
+* no dependencies to third-party cloud service
+* more privacy-friendly than Google Analytics
+
+Limitations
+
+* GoAccess stats are very basic compared to Google Analytics
+* Not sure how interoperable GoAccess DB is? Could we export to other platform? Do we need to keep traffic server logs?
+
 Installation instructions
 -------------------------
 
@@ -45,7 +67,8 @@ From command line:
 
 Alternatively From the staging site: go to /webstats.html
 
-TODO:
+TODO
+----
 
 * Analysis: how can we do time slice, look at bounce rates, entry/exit points, navifation flow?
 * Make sure size of GoAccess DB remains small enough over longer period of time
