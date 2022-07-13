@@ -1,11 +1,18 @@
 # Which platforms for Python Notebooks?
 
-| Platform                                                               | Editor             | Execution     | Storage      | Github integration | Status | Comments                 |
-|------------------------------------------------------------------------|--------------------|---------------|--------------|--------------------|--------|--------------------------|
-| [JupyterLab](https://jupyter.org/install)                              | JupyterLab (Web)   | Your machine  | Your machine | ?                  | Stable | Runs locally, not quota  |
-| [VSCodium](https://vscodium.com/)                                      | VSCode/ium (IDE)   | Your machine  | Your machine | Yes                | Stable | Runs locally, not quota  |
-| [JupyterLite](https://jupyterlite.readthedocs.io/en/latest/index.html) | JupyterLab (Web)   | Jupyter Cloud | ?            | ?                  | Beta   | ?                        |
-| [Google Colab(oratory)](https://colab.research.google.com/)            | Google Colab (Web) | Google Cloud  | Google Drive | Yes                | Stable | Free GPU access          |
+| Platform                                                               | Editor             | Execution     | Storage      | Github integration | Status | Comments        |
+|------------------------------------------------------------------------|--------------------|---------------|--------------|--------------------|--------|-----------------|
+| [JupyterLab](https://jupyter.org/install)                              | JupyterLab (Web)   | Your machine  | Your machine | ?                  | Stable |                 |
+| [VSCodium](https://vscodium.com/)                                      | VSCode/ium (IDE)   | Your machine  | Your machine | Yes                | Stable |                 |
+| [JupyterLite](https://jupyterlite.readthedocs.io/en/latest/index.html) | JupyterLab (Web)   | Jupyter Cloud | ?            | ?                  | Beta   | ?               |
+| [Google Colab(oratory)](https://colab.research.google.com/)            | Google Colab (Web) | Google Cloud  | Google Drive | Yes                | Stable | Free GPU access |
+
+Advantages of the environments running on your machine are that you don't need an account, 
+internet connection and there is no usage limits. However they require some initial installation and configuration. 
+Cloud environments work out of the box and may be able to run your code on powerful hardware (e.g. GPUs).
+
+Cloud options also allow you to easily share your notebook and collaborate. 
+Whereas other options needs to be synced with github for others to view or edit.
 
 # Background & concepts
 
