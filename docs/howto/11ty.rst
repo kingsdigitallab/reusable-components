@@ -29,3 +29,25 @@ To run it as a development server:
 Then go to `localhost:8000 <localhost:8000>`__. Each time you modify a
 source file, 11ty will automatically rebuild the site and refresh it in
 your browser. .
+
+Plugins
+-------
+
+See https://www.11ty.dev/docs/plugins/
+
+Recommended by KDL:
+
+* https://www.11ty.dev/docs/plugins/navigation/
+
+
+Relevant to our projects:
+
+* https://www.npmjs.com/package/eleventy-plugin-find
+* https://www.npmjs.com/package/@orchidjs/eleventy-plugin-ids
+* https://www.npmjs.com/package/eleventy-plugin-html-validate
+* https://www.npmjs.com/package/@vidhill/fortawesome-brands-11ty-shortcode
+* https://www.npmjs.com/package/@tigersway/eleventy-plugin-ancestry
+* https://www.npmjs.com/package/eleventy-plugin-toc
+* https://www.npmjs.com/package/eleventy-plugin-nesting-toc
+* https://www.npmjs.com/package/eleventy-plugin-plantuml
+* https://www.npmjs.com/package/@quasibit/eleventy-plugin-sitemap
