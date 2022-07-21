@@ -149,6 +149,20 @@ The publication date of a post is determined by the date at the beginning of the
 
 The part following the date is the slug.
 
+Draft Mode
+----------
+
+By default all blog posts and news items are 'live'. To prevent an article
+from being listed on the site while you are drafting it,
+you can add the following key and value to its front-matter:
+
+``status: draft``
+
+Once the article is ready for publication, just remove that line or
+change it to ``status: live`` instead. You can preview the article on
+the live site at any time by directly visiting its URL (see the above
+section about 'slug').
+
 Images in markdown
 ------------------
 
@@ -170,3 +184,4 @@ Here's an example:
     ![A 15th-century stone manor house]({{ "/assets/img/home/Hipswell-Hall-st.jpg" | url }} "Hipswell Hall, where Alice lived with her mother <br> &copy; Suzanne Trill"){.media-left}
 
 As illustrated above, you can use <br> in the caption to break lines.
+
