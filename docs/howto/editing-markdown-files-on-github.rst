@@ -4,7 +4,7 @@ Introduction to editing the web site content
 TL;DR
 -----
 
-Static web pages are automatically generated every 5 minutes 
+Static web pages are automatically generated every 10 minutes 
 from Markdown files which you can edit directly on github.com. 
 
 Prerequisites
@@ -115,7 +115,11 @@ As an illustration, here's how you would edit the About page (/about):
 4. you can see a basic preview of the body of the about page
 5. click the pencil icon on the right side of the toolbar just above the
    document
-6. use the simple text editor to edit the front
+6. use the simple text editor to edit the front matter and body of your document
+7. **always** preview your changes before committing them to ensure they don't disrupt the display
+8. add a short commit message summarising your change
+9. press 'commmit' to commit and push the change to the repository
+10. check on the live website after ~10 minutes
 
 .. image:: ../images/github-browse-file.svg
 
