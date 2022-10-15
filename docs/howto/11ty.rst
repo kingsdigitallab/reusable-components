@@ -62,4 +62,11 @@ Misc
 * _includes: contains liquid templates and fragments
    * frontend/_includes/js: contains **serve-side** javascript (As opposed to client-side, see below)
 * assets: contains all the **client-side** resources loaded by your web pages (css, js, fonts, node_modules, img); the folder is copied as-is to the site.
+* _site: where the site is built by 11ty (this folder is disposable)
+* _data: global metadata, collections and computed fields
+   * layout.json: points to the default layout for any page (see _includes folder)
+   * eleventyComputed.js: computed fields available to every page/layout and fragment
+   * metadata.json: golbal settings for your site
+* _build: to deploy using docker or other methods than npm (currently unused)
+
 ...
