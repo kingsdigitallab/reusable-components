@@ -10,4 +10,5 @@ For more information see `Reference guides`_.
 .. toctree::
     :maxdepth: 1
 
+    hydra
     webmap-options
