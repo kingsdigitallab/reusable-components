@@ -50,6 +50,11 @@ Directory structure
 * **docker-compose.yaml** Docker compose file
 * **package.json**
 
+.. note::
+
+   Docker is only needed if using the cms, and potentially etl modules. If the project
+   only has the frontend module Docker should not be needed.
+
 The highlevel directory structure for each module/workspace, by default, follows the
 *standard* for JavaScript packages:
 
