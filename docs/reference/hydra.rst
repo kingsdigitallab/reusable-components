@@ -210,6 +210,16 @@ Execute them with `npm run`.
     "index": "npx pagefind --source _site"
   }
 
+Metadata
+~~~~~~~~
+
+Post
+^^^^
+
+.. literalinclude:: ../../components/metadata/post.md
+    :language: markdown
+
+
 Plugins
 ~~~~~~~
 
