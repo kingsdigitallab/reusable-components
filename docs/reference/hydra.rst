@@ -116,7 +116,7 @@ by using the simple-git-hooks_ package.
    },
    "lint-staged": {
      "*.{js}": "npm run format",
-     "*.{md,yaml}": "npm run prettier:fix"
+     "*.{json,md,yaml}": "npm run prettier:fix"
    }
 
 Scripts
