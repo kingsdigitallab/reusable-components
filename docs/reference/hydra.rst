@@ -168,7 +168,7 @@ Directory structure
   * **_data/** global data/collections for the project
 
     * **eleventyComputed.js** computed fields available to every layout
-    * **seo.json** settings for the seo_ plugin
+    * **config.json** settings for the seo_ plugin and other site metadata
   * **_includes/**  contains layouts, include files, extends files, partials, or macros
 
     * layouts_/ contains layout templages
