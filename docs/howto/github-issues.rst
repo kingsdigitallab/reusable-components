@@ -6,11 +6,13 @@ This document is a work in progress.
 https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart
 
 1. Scope
+--------
 
 Tickets created in Github should be for mostly minor, low-level implementation-specific of particular components of the research software. 
 Anything higher-level or more major should instead be raised and discussed via the normal route with an Analyst.
 
 2. Prioritisation
+-----------------
 
 We use the MOSCOW system. 
 https://www.agilebusiness.org/dsdm-project-framework/moscow-prioririsation.html
@@ -21,6 +23,7 @@ We generally start to work on higher priorities ticket but the order may also de
 As a rule of thumb there should be a very limited number of MUST tickets (e.g. around three) at any time in order to keep the work focused and agile.
 
 3. New ticket
+-------------
 
 A KDL member or a member of the research team can open a new ticket. Please provide at a minimum:
 
@@ -35,6 +38,7 @@ It is best to break things into a small unit of work. So each ticket correspond 
 Larger features should be discussed with analyst directly via other channels than github.
 
 4. Volume
+---------
 
 Although we encourage you to always report bugs, please be mindful of number of open tickets in system. 
 It is best to keep the number of open feature requests (i.e. enhancement) limited at any time to keep our focus, avoid unmanageable backlog or feature-creep.
@@ -42,6 +46,7 @@ It is best to keep the number of open feature requests (i.e. enhancement) limite
 The worflow is iterative and only a few tickets can be done in one development iteration /increment. More features can be added in the next cycle.
 
 5. Rest of the workflow
+-----------------------
 
 The comment area on the tickets is very useful to keep all questions and communication on topic, responsive and descriptive.
 
