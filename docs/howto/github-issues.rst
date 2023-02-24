@@ -17,10 +17,11 @@ Anything higher-level or more major should instead be raised and discussed via t
 We use the MOSCOW system. 
 https://www.agilebusiness.org/dsdm-project-framework/moscow-prioririsation.html
 
-Priorities are negotiable based on how needs and technical feasibility / cost. KDL project analyst is ultimately responsible for them.
+Priorities are negotiated based on how research needs and technical feasibility / cost. KDL project analyst is ultimately responsible for them.
 
-We generally start to work on higher priorities ticket but the order may also depend on functional grouping or other technical factors. 
-As a rule of thumb there should be a very limited number of MUST tickets (e.g. around three) at any time in order to keep the work focused and agile.
+We generally work first on higher priorities ticket but the order may also depend on functional grouping or other technical factors. 
+As a rule of thumb there should be a very limited number of MUST tickets (e.g. around three) at any time in order to keep the work focused and agile. 
+It is best to conservative with the priorities and number of open tickets. 
 
 3. New ticket
 -------------
@@ -29,9 +30,9 @@ A KDL member or a member of the research team can open a new ticket. Please prov
 
 * a short but clear title
 * a specific description which is precise enough, the more details the better (e.g. screenshots, links, inputs, outputs, ...)
-* description should indicate the screen/url of the UI
-* for bugs, please provide step by step description of the actions to systematically reproduce the error
-* a label saying whether this is a bug or an enhancement
+* description should indicate the screen/url of the user interface and name the interface elements it refers to  
+* for bugs, please provide step by step description of the actions to systematically reproduce the error. Preferably using bullet points
+* apply a label saying whether this is a bug or an enhancement
 * assign to agreed default person person at KDL (analyst or developer)
 
 It is best to break things into a small unit of work. So each ticket correspond to a single bug or a single atomic feature request. 
