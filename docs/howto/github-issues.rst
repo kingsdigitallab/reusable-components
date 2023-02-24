@@ -23,7 +23,7 @@ Priorities are negotiated based on research needs and technical feasibility / co
 
 We generally work first on higher priorities ticket but the order may also depend on functional grouping or other technical factors. 
 As a rule of thumb there should be a very limited number of MUST tickets (e.g. around three) at any time in order to keep the work focused and agile. 
-It is best to conservative with the priorities and number of open tickets. 
+It is best to be conservative with the priorities and the number of open tickets. 
 
 3. New ticket
 -------------
