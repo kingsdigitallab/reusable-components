@@ -35,6 +35,8 @@ A KDL member or a member of the research team can open a new ticket. Please prov
 * assign to agreed default person person at KDL (analyst or developer)
 
 It is best to break things into a small unit of work. So each ticket correspond to a single bug or a single atomic feature request. 
+https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/best-practices-for-projects#break-down-large-issues-into-smaller-issues
+
 Larger features should be discussed with analyst directly via other channels than github.
 
 4. Volume
@@ -50,7 +52,8 @@ The worflow is iterative and only a few tickets can be done in one development i
 
 The comment area on the tickets is very useful to keep all questions and communication on topic, responsive and descriptive.
 
-To draw the attention of someone (e.g. asking them a direct question), prefix their username with @ in the comment. This will notify them.
+To draw the attention of someone (e.g. asking them a direct question), prefix their username with @ in the comment. Github will notify them.
+https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues#efficient-communication
 
 When a ticket has been implemented (e.g. fixed and issue or added a new feature), KDL will close the ticket and leave a short message with an explanation of what has been done.
 
