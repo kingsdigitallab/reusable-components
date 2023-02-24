@@ -30,7 +30,7 @@ It is best to be conservative with the priorities and the number of open tickets
 
 A KDL member or a member of the research team can open a new ticket. Please provide at a minimum:
 
-* a short but clear title
+* a short but clear and unique title (summarise the issue in less than 10 words)
 * a specific description which is precise enough, the more details the better (e.g. screenshots, links, inputs, outputs, ...)
 * description should indicate the screen/url of the user interface and name the interface elements it refers to  
 * for bugs, please provide step by step description of the actions to systematically reproduce the error. Preferably using bullet points
