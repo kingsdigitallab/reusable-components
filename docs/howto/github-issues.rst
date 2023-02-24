@@ -8,7 +8,7 @@ https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart
 1. Scope
 --------
 
-Tickets created in Github should be for mostly minor, low-level implementation-specific of pre-agreed components of the research software. 
+Tickets created in Github should be for minor, low-level implementation-specific of pre-agreed components of the research software. 
 Anything higher-level, more major or about other components should instead be raised and discussed via the normal route with an Analyst.
 
 Let us know if you are unsure whether an issue falls within the current agreed scope.
@@ -19,7 +19,7 @@ Let us know if you are unsure whether an issue falls within the current agreed s
 We use the MOSCOW system. 
 https://www.agilebusiness.org/dsdm-project-framework/moscow-prioririsation.html
 
-Priorities are negotiated based on how research needs and technical feasibility / cost. KDL project analyst is ultimately responsible for them.
+Priorities are negotiated based on research needs and technical feasibility / cost. KDL project analyst is ultimately responsible for them.
 
 We generally work first on higher priorities ticket but the order may also depend on functional grouping or other technical factors. 
 As a rule of thumb there should be a very limited number of MUST tickets (e.g. around three) at any time in order to keep the work focused and agile. 
