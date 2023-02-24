@@ -11,7 +11,7 @@ https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart
 Tickets created in Github should be for mostly minor, low-level implementation-specific of pre-agreed components of the research software. 
 Anything higher-level, more major or about other components should instead be raised and discussed via the normal route with an Analyst.
 
-Let us know if the scope is not clear.
+Let us know if you are unsure whether an issue falls within the current agreed scope.
 
 2. Prioritisation
 -----------------
