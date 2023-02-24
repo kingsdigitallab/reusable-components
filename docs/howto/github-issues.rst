@@ -8,8 +8,10 @@ https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart
 1. Scope
 --------
 
-Tickets created in Github should be for mostly minor, low-level implementation-specific of particular components of the research software. 
-Anything higher-level or more major should instead be raised and discussed via the normal route with an Analyst.
+Tickets created in Github should be for mostly minor, low-level implementation-specific of pre-agreed components of the research software. 
+Anything higher-level, more major or about other components should instead be raised and discussed via the normal route with an Analyst.
+
+Let us know if the scope is not clear.
 
 2. Prioritisation
 -----------------
